@@ -8,20 +8,21 @@ import VerCliente from './paginas/VerCliente'
 
 function App() {
   
+  
 
-  return (
-    
-    <BrowserRouter>
-      <Routes>
-          <Route path='/clientes' element={<Layout />} >
-            <Route index element={<Inicio />} />
-            <Route path="nuevo" element={<NuevoCliente />} />
-            <Route path="editar/:id" element={<EditarCliente />} />
-            <Route path=":id" element={<VerCliente />} />
-          </Route>
-      </Routes>
-    </BrowserRouter>
-  )
+    return (
+      
+      <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Layout />} >
+              <Route index element={<Inicio />} />
+              <Route path="nuevo" element={<NuevoCliente />} />
+              <Route path="editar/:id" element={<EditarCliente />} />
+              <Route path=":id" element={<VerCliente />} />
+            </Route>
+        </Routes>
+      </BrowserRouter>
+    )
 }
 
 export default App
