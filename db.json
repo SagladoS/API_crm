@@ -1,0 +1,44 @@
+{
+  "clientes": [
+    {
+      "nombre": "Santiago",
+      "empresa": "Codigo con Salgado",
+      "email": "correo@correo.com",
+      "telefono": "13515151",
+      "notas": "Producto en busqueda",
+      "id": 1
+    },
+    {
+      "nombre": "Carolina Palacio",
+      "empresa": "Carolina js",
+      "email": "correo@correo.com",
+      "telefono": "235151",
+      "notas": "CARO SOLO DUERME",
+      "id": 2
+    },
+    {
+      "nombre": "Paulina",
+      "empresa": "paluina sa",
+      "email": "paulina@paulina.com",
+      "telefono": "123521",
+      "notas": "fwafawfawfaw",
+      "id": 3
+    },
+    {
+      "nombre": "Mariana",
+      "empresa": "MarianaCoding",
+      "email": "correo@correo.com",
+      "telefono": "1242151",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "COD Con juan",
+      "email": "correo@correo.com",
+      "telefono": "12414124",
+      "notas": "Probando",
+      "id": 6
+    }
+  ]
+}
